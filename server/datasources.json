@@ -1,6 +1,27 @@
 {
-  "db": {
-    "name": "db",
+  "db1": {
+    "name": "db1",
     "connector": "memory"
+  },
+  "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "",
+    "database": "chatServer",
+    "password": "",
+    "name": "db",
+    "user": "",
+    "useNewUrlParser": true,
+    "useFindAndModify": false,
+    "useUnifiedTopology": true,
+    "useCreateIndex": true,
+    "connector": "mongodb",
+    "connectTimeoutMS": 10000,
+    "poolSize": 10,
+    "writeConcern": {
+      "w": "majority",
+      "j": true,
+      "wtimeout": 15000
+    }
   }
 }
